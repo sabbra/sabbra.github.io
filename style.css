@@ -1,0 +1,48 @@
+#figure {
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+}
+.square {
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+.rectangle {
+	width: 100px;
+	height: 50px;
+	background: blue;
+}
+.circle {
+	background: #b30;
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  background: yellow;
+  flex-basis: 100%;
+  min-height: 100px;
+}
+
+.column-left {
+  background: #04ad01;
+  flex-basis: 20%;
+  min-height: 150px;
+}
+
+.content {
+  flex-basis: 80%;
+  background: #014bad;
+}
+
+.footer {
+  flex-basis: 100%;
+  background: olive;
+  min-height: 50px;
+}
